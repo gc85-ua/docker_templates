@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "postgres": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@hovecapital/read-only-postgres-mcp-server"
+      ],
+      "env": {
+        "DB_HOST": "localhost",
+        "DB_PORT": "5432",
+        "DB_DATABASE": "analytics",
+        "DB_USERNAME": "postgres",
+        "DB_PASSWORD": "password"
+      }
+    }
+  }
+}
